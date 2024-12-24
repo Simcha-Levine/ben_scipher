@@ -1,0 +1,262 @@
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+
+    <div class="h center">
+
+        <input type="color" id="picker" class="picker" />
+
+
+        <div class="table_column">
+            <div class="table_box">
+                <table id="table">
+                    <tr class="head">
+                        <th>character</th>
+                        <th>decimal</th>
+                        <th>binary</th>
+                        <th>hex</th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+
+        <div class="v" id="result">
+            <div class="h center" id="key">
+                <div class="picker-side">
+                    <div class="text">horizontal</div>
+                    <div class="text">0</div>
+                    <div class="h">
+                        <div class="rect_container">
+                            <div class="rect color color_picker" data-color-type="0" id="both0"></div>
+                        </div>
+                        <div class="rect_container">
+                            <div class="rect color color_picker" data-color-type="1" id="h0v1"></div>
+                        </div>
+                    </div>
+                    <div class="text">1</div>
+                    <div class="h">
+                        <div class="rect_container">
+                            <div class="rect color color_picker" data-color-type="11" id="both1"></div>
+                        </div>
+                        <div class="rect_container">
+                            <div class="rect color color_picker" data-color-type="10" id="h1v0"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gap">
+                    <h1 class="title" id="title">ben cipher</h1>
+                </div>
+
+                <div class="picker-side">
+                    <div class="text">vertical</div>
+                    <div class="text">0</div>
+                    <div class="h">
+                        <div class="rect_container">
+                            <div class="rect color color_picker" data-color-type="0" id="both0"></div>
+                        </div>
+                        <div class="rect_container">
+                            <div class="rect color color_picker" data-color-type="10" id="h1v0"></div>
+                        </div>
+                    </div>
+                    <div class="text">1</div>
+                    <div class="h">
+                        <div class="rect_container">
+                            <div class="rect color color_picker" data-color-type="11" id="both1"></div>
+                        </div>
+                        <div class="rect_container">
+                            <div class="rect color color_picker" data-color-type="1" id="h0v1"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <div class="v_numbers">
+                        <div class="v_number">128</div>
+                        <div class="v_number">64</div>
+                        <div class="v_number">32</div>
+                        <div class="v_number">16</div>
+                        <div class="v_number">8</div>
+                        <div class="v_number">4</div>
+                        <div class="v_number">2</div>
+                        <div class="v_number">1</div>
+                    </div>
+                    <div class="h_numbers">
+                        <div class="h_number">128</div>
+                        <div class="h_number">64</div>
+                        <div class="h_number">32</div>
+                        <div class="h_number">16</div>
+                        <div class="h_number">8</div>
+                        <div class="h_number">4</div>
+                        <div class="h_number">2</div>
+                        <div class="h_number">1</div>
+                    </div>
+                    <div class="grid" id="grid">
+                        <div class="row">
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                            <div class="cell color" data-color-type="0"></div>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="v editor" id="editor">
+            <div class="text_box" id="letters_left">
+                you need to use exactly 16 characters!
+            </div>
+            <textarea class="enter_text" name="text" id="text" rows="5" cols="10"></textarea>
+
+            <div class="h">
+                <div class="color_box">
+                    <div class="explain_color color color_picker" data-color-type="0" id="explain_00"></div>
+                </div>
+                <div class="text_box">both vertical and horizontal are 0</div>
+            </div>
+
+            <div class="h">
+                <div class="color_box">
+                    <div class="explain_color color color_picker" data-color-type="11" id="explain_11"></div>
+                </div>
+                <div class="text_box">both vertical and horizontal are 1</div>
+            </div>
+
+            <div class="h">
+                <div class="color_box">
+                    <div class="explain_color color color_picker" data-color-type="1" id="explain_01"></div>
+                </div>
+                <div class="text_box">horizontal is 0 and vertical is 1</div>
+            </div>
+
+            <div class="h">
+                <div class="color_box">
+                    <div class="explain_color color color_picker" data-color-type="10" id="explain_10"></div>
+                </div>
+                <div class="text_box">horizontal is 1 and vertical is 0</div>
+            </div>
+
+            <div class="button_box">
+                <button id="download">
+                    download
+                </button>
+
+                <dialog id="dialog" class="dialog">
+                    <div class="text" id="preview_text">preview: </div>
+                    <div id="preview"></div>
+                    <button class="dialog_button" id='close'>close</button>
+                    <button class="dialog_button" id='proceed'>download</button>
+                </dialog>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="cookies.js"></script>
+<script src="create_svg.js"></script>
+<script src="functions.js"></script>
+<script src="script.js"></script>
