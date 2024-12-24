@@ -252,3 +252,12 @@ td {
     border: solid beige;
     border-radius: 20px;
 }
+
+.github-link {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    color: beige;
+    font-size: 20px;
+    font-weight: bold;
+}
