@@ -1,1 +1,1 @@
-![Screenshot from 2024-12-24 16-14-13](https://github.com/user-attachments/assets/d0880c3a-ea44-4c2d-968a-00f072417327)
+![Untitled](https://github.com/user-attachments/assets/77c9051c-f5e7-4aae-b390-15a7b2a5b0d5)
