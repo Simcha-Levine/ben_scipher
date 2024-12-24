@@ -10,10 +10,10 @@ let original_text = letters_left.innerText
 let color_map = getMapFromCookie('color_map')
 if (color_map.size == 0) {
     console.log("once and no more")
-    color_map.set(0, '#ff0000')
-    color_map.set(11, '#00ff00')
-    color_map.set(1, '#0000ff')
-    color_map.set(10, '#ffff00')
+    color_map.set(0, '#ed333b')
+    color_map.set(11, '#3584e4')
+    color_map.set(1, '#2ec27e')
+    color_map.set(10, '#813d9c')
 }
 
 update_text(getStringCookie('text'))
